@@ -13,7 +13,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: baseline;
+    justify-content:flex-start;
 }
 
 footer {

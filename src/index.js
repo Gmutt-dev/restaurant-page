@@ -1,3 +1,4 @@
 import "./styles.css";
+import displayMain from "./main.js";
 
-console.log("test:");
+displayMain();

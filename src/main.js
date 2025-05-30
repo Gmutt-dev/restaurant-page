@@ -4,9 +4,10 @@ export default function displayMain() {
     
     const img = document.createElement("img");
     img.src = imgHappyPuppy;
+    img.classList.add("happy-puppy-pic")
 
     const h1 = document.createElement("h1");
-    h1.innerHTML = "Kibbles 'n Kisses<br>Doggie Restaurant";
+    h1.innerHTML = "KIBBLES 'n <span>KISSES</span><br>Doggie Restaurant";
 
     const intro = document.createElement("p");
     intro.textContent = "The finest delicatessen for canine palates.";

@@ -10,7 +10,6 @@
 body {
     height: 100vh;
     background-image: url("./img/bone_7824571.png");
-    padding: 10px 0;
     
     display: flex;
     flex-direction: column;
@@ -20,7 +19,7 @@ body {
     & header, footer {
         background-color: black;
         width: 100vw;
-        height: 54px;
+
     }
 
     & header {
@@ -91,12 +90,13 @@ body {
 
     & footer {
         margin-top: auto;
-    
+        
         display: grid;
         place-items: center;
         
         & a {
             color: white;
+            padding: 20px;
         }
     }
 }

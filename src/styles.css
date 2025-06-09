@@ -85,6 +85,16 @@ body {
                     font-size: 5rem;
                 }
             }
+
+            & #menu-item {
+                font-weight: bold;
+                font-size: 1.7rem;
+
+                & > p {
+                    text-align: left;
+                    font-style: italic;
+                }
+            }
         }
     }
 

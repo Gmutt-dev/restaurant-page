@@ -43,6 +43,10 @@ body {
                     background-color: lightgrey;
                 }
             }
+
+            & .selected-button {
+                background-color: tan;
+            }
         }
     }
     

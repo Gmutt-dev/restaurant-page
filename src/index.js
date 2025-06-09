@@ -22,3 +22,6 @@ nav.addEventListener("click", e => {
             break;
     }
 })
+
+const home = document.querySelector("#nav-home");
+home.click();
